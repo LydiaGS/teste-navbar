@@ -89,7 +89,10 @@ color: #fff;
     margin-bottom: 20px;
 }
 .wrapper{
+  display: flex;
+  flex-direction: column;
     margin-top: 2%;
+   flex-wrap: wrap;
 }
 .wrapper h1{
     font-family: 'Allura', cursive;
@@ -429,4 +432,13 @@ transform:scale(1.1);
     .footer .footer-center i {
       margin-left: 0;
     }
+  }
+  .about{
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
   }
