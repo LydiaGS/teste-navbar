@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2? family= Allura & family= Dancing+Script:wght@500 & family= Josefin+Sans:wght@200;300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@
 }
 body{
     background:#717171!important;
-    font-family:'Jodefin sans',sans-serif !important;
+    font-family:'Pangolin',sans-serif !important;
 }
 .warpper{
     display: flex;
@@ -101,6 +102,90 @@ color: #fff;
     text-align: center;
     color: #ccc;
 }
+h1 {
+  font-family:'Pangolin',sans-serif !important;
+  font-size: 55px !important;
+}
+
+header {
+  background:#27363f;
+  width:100%;
+  padding:40px 0;
+  color:white;
+  text-align:center;
+}
+
+a {
+  text-decoration:none;
+  color:inherit;
+}
+
+nav ul {
+  background-color:#446274;
+  overflow:hidden;
+  color:white;
+  padding:0;
+  margin:0;
+  text-align:center;
+  -webkit-transition:max-height 0.4s;
+  -ms-transition:max-height 0.4s;
+  -moz-transition:max-height 0.4s;
+  -o-transition:max-height 0.4s;
+  transition:max-height 0.4s;
+}
+
+nav ul li {
+  display:inline-block;
+  padding:20px;
+  gap: 1em;
+}
+
+nav ul li:hover {
+  background-color:#718e9e;
+}
+
+section {
+  line-height: 1.5em;
+  font-size:0.9em;
+  padding:40px;
+  width:75%;
+  margin:0 auto;
+}
+
+  .handle {
+    width:100%;
+    background: #446274;
+    text-align:left;
+    box-sizing:border-box;
+    padding:15px 10px;
+    cursor:pointer;
+    color:white;
+    display:none;
+  }
+
+@media screen and (max-width:580px){
+  
+  nav ul {
+    max-height:0;
+  }
+  
+  .showing {
+    max-height:20em;
+  }
+  nav ul li {
+    width:100%;
+    box-sizing:border-box;
+    padding:15px;
+    text-align:left;
+  }
+   
+  .handle {
+    display:block;
+  }
+  
+
+}
+
 .team{
     display: flex;
     align-items: center;
@@ -195,6 +280,8 @@ align-items: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: auto;
+    width: auto;
 }
 .img{
     width: 100%;
@@ -227,6 +314,8 @@ align-items: center;
     flex-direction: column;
     background:#fff ;
     border: 1px solid #e4e2e2 ;
+    display: flex;
+    flex-wrap: wrap;
 }
 .cards_blog{
     display: flex;
@@ -235,6 +324,7 @@ align-items: center;
     flex-direction: row;
     gap: 1em;
     margin: 20px;
+    flex-wrap: wrap;
 }
 .blog:hover{
 transform:scale(1.1);
@@ -279,6 +369,7 @@ transform:scale(1.1);
     padding: 50px;
     margin-top: 50px;
     z-index: 1;
+    font-family:'Pangolin',sans-serif !important;
   }
   
   .footer .footer-left,
@@ -321,7 +412,7 @@ transform:scale(1.1);
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color: #33383b;
+    background-color: #414141;
     border-radius: 2px;
     font-size: 20px;
     color: #ffffff;
@@ -441,4 +532,18 @@ transform:scale(1.1);
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    font-family:'Pangolin',sans-serif !important;
+  }
+  #scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+  }
+  #scroll_to_top img {
+    width: 25px;
+  }
+  .s{
+    text-decoration : underline;
   }
