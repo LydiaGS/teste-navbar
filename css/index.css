@@ -547,3 +547,19 @@ transform:scale(1.1);
   .s{
     text-decoration : underline;
   }
+.liens ul{
+  gap: 3em;
+  margin: 20px;
+}
+.liens{
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.logo-Footer{
+  height: 120px;
+  width: 250px;
+}
+.about .carte{
+  height: 285px;
+  width: 285px;
+}
